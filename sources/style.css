@@ -1,0 +1,22 @@
+/* compressor http://ganquan.info/yui/ */
+
+.jq-events{
+    position: absolute;
+    z-index: 9999;
+}
+    .jq-events>div{
+        opacity: .5;
+        background: red;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 5px;
+        margin: 5px;
+        outline: 1px solid red;
+        font: normal 12px Arial;
+        text-transform: lowercase;
+        text-shadow: none;
+    }
+    .jq-events>div:hover{
+        opacity: 1;
+        outline: 2px solid red;
+    }
