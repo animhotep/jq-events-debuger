@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "jQuery events debuger",
-  "version": "1.0.0",
-  "description": "Shows source code of jQuery event handlers",
+  "version": "0.1",
+  "description": "Shows the source code of jQuery event handlers",
 
   "icons": {
     "64" : "icon.png"
@@ -14,6 +14,7 @@
   },
 
   "background": { "page": "background.html" },
+
   "permissions": [ "tabs", "file://*/*", "http://*/*", "https://*/*" ],
 
   "web_accessible_resources": [ "contentscript.js" ]
